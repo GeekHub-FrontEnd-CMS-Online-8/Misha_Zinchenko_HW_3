@@ -1,7 +1,13 @@
-body{
-    display: flex;
-    justify-content: center;
-}
 .table_2{
     margin-top: 10px;
 }
+.table_3{
+    border: 2px solid slategrey;
+    margin-top: 10px;
+    text-align: left;
+    border-collapse: collapse;
+}
+.table_3 td,th{
+    border: 1px solid black;
+}
+

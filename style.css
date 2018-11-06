@@ -1,3 +1,13 @@
+body{    
+    width: 50%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.border_t{
+    border: 1px solid #000000;
+    border-collapse: separate;
+    empty-cells: hide;
+}
 .table_2{
     margin-top: 10px;
 }
@@ -7,7 +17,11 @@
     text-align: left;
     border-collapse: collapse;
 }
-.table_3 td,th{
+td,th{
     border: 1px solid black;
+}
+div{
+    width: 100%;
+    margin-top: 30px;
 }
 

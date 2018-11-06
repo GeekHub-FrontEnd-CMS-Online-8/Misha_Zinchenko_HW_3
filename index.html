@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ukr">
+<html lang="ru">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,7 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <table class="table_1" border="1">
+    <table class="table_1 border_t">
         <tr>
            <th>Об'єкт обробки</th>
            <th>Норма витрати препарату, мл/10л</th>
@@ -28,7 +28,7 @@
             <td>Однорічні дводольні та злакові бур'яни</td>
         </tr>
     </table>
-    <table class="table_2" border="1">
+    <table class="table_2 border_t">
         <tr>
             <th>Культура</th>
             <th >Бур'яни</th>
@@ -104,5 +104,35 @@
             <td>30</td>
         </tr>
     </table>
+    <div>
+        <h1>Урок "Формы": теги и их атрибуты</h1>
+        <h3>Раскажите немного о себе...</h3>
+        <p>Заполните пожалуйста форму</p>
+        <form action="mailto:aswad1909@gmail.com" enctype="text/plain" method="get"> 
+            <fieldset>
+                <!-- назва -->
+                <legend>Коротко о себе</legend>
+                <!-- назва -->
+                <p>
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="firstname">
+                </p>
+                    <p>
+                        <label for="surname">Фамилия:</label>
+                        <input type="text" id="surname" name="lastname">
+                    </p>
+                        <p> Пол:
+                            <input type="radio" name="male">мужской
+                            <input type="radio" name="female">женский
+                        </p>
+                            <p>
+                                <label for="years_old">Возраст:</label>
+                                <input type="text" id="years_old" name="years_old">
+                            </p>
+
+            </fieldset>
+            
+        </form>
+    </div>
 </body>
 </html>

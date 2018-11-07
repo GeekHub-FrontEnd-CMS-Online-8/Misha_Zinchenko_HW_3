@@ -36,3 +36,9 @@ textarea{
     height: 100px;
     width: 400px;
 }
+.input_ost{
+    margin-top: 10px;
+}
+form{
+    margin-bottom: 10px;
+}

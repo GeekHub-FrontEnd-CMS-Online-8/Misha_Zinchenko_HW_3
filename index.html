@@ -154,7 +154,7 @@
                                     <option value="third">Флегматик</option>
                                 </select>
                              
-                            <h4>Сколько часов сиграно в steam?</h4>
+                            <h4>Сколько часов сыграно в steam?</h4>
                                 <input type="radio" name="hours" value="0-400" checked>0-400<br>
                                 <input type="radio" name="hours" value="401-800">401-800<br>
                                 <input type="radio" name="hours" value="801-2000">801-2000<br>
@@ -182,7 +182,24 @@
                    <label for="f_email">Email:</label><br>
                    <input type="email" id="f_email" class="t_edit" name="email">
                 </p>
+                
+                <p>
+                    <h4>Пожалуйста подпишитесь на нашу рассылку спама</h4>
+                        <em>Выберите категории</em><br>
+                            <input type="checkbox" name="mailing" value="conspiracy"> Как раскрыть мировой заговор<br>
+                            <input type="checkbox" name="mailing" value="nuclear"> Как сделать ядерную бомбу у себя дома за 15 минут<br>
+                            <input type="checkbox" name="mailing" value="lottery"> Как выиграть в лотерею
+                </p>     
+                
+                <p>
+                    <h3>На сколько сложная задача?</h3>
+                        <input type="radio" name="problem" value="plain">Совсем нет<br>
+                        <input type="radio" name="problem" value="simple" checked>Так себе<br>
+                        <input type="radio" name="problem" value="complex">Еле справились
+                </p>
             </fieldset>
+
+            <input class="input_ost" type="submit" value="Отправить">
             
         </form>
     </div>

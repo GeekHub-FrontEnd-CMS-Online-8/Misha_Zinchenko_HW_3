@@ -112,7 +112,6 @@
             <fieldset>
                 <!-- назва -->
                 <legend>Коротко о себе</legend>
-                <!-- назва -->
                 <p>
                     <label for="name">Имя:</label>
                     <input type="text" id="name" name="firstname">
@@ -130,6 +129,59 @@
                                 <input type="text" id="years_old" name="years_old">
                             </p>
 
+            </fieldset>
+            <fieldset>
+                <legend>Подробнее о себе</legend>
+                    <p><input type="radio" name="Dota">Dota 2</p>
+                        <p><input type="radio" name="COD">Call of Duty</p>
+                            <p>
+                                <input type="data" name="data"> Дата рождения<br>
+                                <input type="text" name="family"> Семейное положение<br>
+                                <input type="text" name="social"> Cоциальный статус<br>
+                                <input type="text" name="city"> Город
+                            </p>
+                              
+                            <h3>Что обычно делаете на выходных?</h3>
+                                <input type="checkbox" name="weekend" value="work"> Работаю<br>
+                                <input type="checkbox" name="weekend" value="sport"> Занимаюсь спортом<br>
+                                <input type="checkbox" name="weekend" value="film"> Смотрю фильм<br>
+                                <input type="checkbox" name="weekend" value="games"> Играю в игры
+                            
+                            <h3>Кто вы? </h3>
+                                <select name="choose_1" size="1">
+                                    <option selected="selected" value="first">Сангвиник</option>
+                                    <option value="second">Меланхолик</option>
+                                    <option value="third">Флегматик</option>
+                                </select>
+                             
+                            <h4>Сколько часов сиграно в steam?</h4>
+                                <input type="radio" name="hours" value="0-400" checked>0-400<br>
+                                <input type="radio" name="hours" value="401-800">401-800<br>
+                                <input type="radio" name="hours" value="801-2000">801-2000<br>
+                                <input type="radio" name="hours" value="2000+">2000+
+
+                                <p>
+                                    <label for="c_commit">Ваши комментарии:</label><br>
+                                    <textarea id="c_commit" name="commit" maxlength="150"></textarea>
+                                </p>
+
+                                <select name="choose_2" size="3">
+                                        <option selected="selected" value="one">1</option>
+                                        <option value="two">2</option>
+                                        <option value="three">3</option>
+                                </select>
+
+            </fieldset>
+            <fieldset>
+                <legend>Заключение</legend>
+                <p>
+                   <input type="text" name="field" placeholder="Не пишите здесь ничего...">
+                </p>
+                
+                <p>
+                   <label for="f_email">Email:</label><br>
+                   <input type="email" id="f_email" class="t_edit" name="email">
+                </p>
             </fieldset>
             
         </form>

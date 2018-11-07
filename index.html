@@ -135,7 +135,7 @@
                     <p><input type="radio" name="Dota">Dota 2</p>
                         <p><input type="radio" name="COD">Call of Duty</p>
                             <p>
-                                <input type="data" name="data"> Дата рождения<br>
+                                <input type="text" name="data"> Дата рождения<br>
                                 <input type="text" name="family"> Семейное положение<br>
                                 <input type="text" name="social"> Cоциальный статус<br>
                                 <input type="text" name="city"> Город
@@ -172,6 +172,7 @@
                                 </select>
 
             </fieldset>
+            
             <fieldset>
                 <legend>Заключение</legend>
                 <p>
@@ -183,20 +184,16 @@
                    <input type="email" id="f_email" class="t_edit" name="email">
                 </p>
                 
-                <p>
-                    <h4>Пожалуйста подпишитесь на нашу рассылку спама</h4>
+                   <h4>Пожалуйста подпишитесь на нашу рассылку спама</h4>
                         <em>Выберите категории</em><br>
                             <input type="checkbox" name="mailing" value="conspiracy"> Как раскрыть мировой заговор<br>
                             <input type="checkbox" name="mailing" value="nuclear"> Как сделать ядерную бомбу у себя дома за 15 минут<br>
-                            <input type="checkbox" name="mailing" value="lottery"> Как выиграть в лотерею
-                </p>     
-                
-                <p>
+                            <input type="checkbox" name="mailing" value="lottery"> Как выиграть в лотерю
+
                     <h3>На сколько сложная задача?</h3>
-                        <input type="radio" name="problem" value="plain">Совсем нет<br>
-                        <input type="radio" name="problem" value="simple" checked>Так себе<br>
-                        <input type="radio" name="problem" value="complex">Еле справились
-                </p>
+                        <input type="radio" name="problem" value="plain">Easy<br>
+                        <input type="radio" name="problem" value="simple" checked>Simple<br>
+                        <input type="radio" name="problem" value="complex">Hard
             </fieldset>
 
             <input class="input_ost" type="submit" value="Отправить">
